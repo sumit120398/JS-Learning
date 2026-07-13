@@ -34,3 +34,26 @@ console.log(typeof outsideTemp);
 
 // Read following source page : https://262.ecma-international.org/5.1/#sec-11.4.3
 
+//  ++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+
+// Stack (Primitive), Heap (Non-Primitive)
+
+let myYoutubename = "sumitchannawardotcom"
+
+let anothername = myYoutubename
+anothername = "chaiaurcode"
+
+console.log(myYoutubename);
+console.log(anothername);
+
+let userOne = {
+    email : "user@google.com",
+    upi : "user@ybl"
+}
+
+let userTwo = userOne
+
+userTwo.email = "sumit@google.com"
+
+console.log(userOne.email);
+console.log(userTwo.email);
